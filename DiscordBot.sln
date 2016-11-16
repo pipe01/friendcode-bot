@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiscordBot", "DiscordBot\DiscordBot.csproj", "{B59C847F-9A87-4FD9-B9AB-306FBE553F92}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BotManager", "BotManager\BotManager.csproj", "{829F80DC-4886-48F1-8E76-962615AE2461}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Uploader", "Uploader\Uploader.csproj", "{C9E692A6-0EF1-454D-B8AD-8B012E3BEA5B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DummyProgram", "DummyProgram\DummyProgram.csproj", "{E6337B7C-8E63-4191-81EF-D7750CAFC65A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RemoteController", "RemoteController\RemoteController.csproj", "{A26C2CD9-5248-412F-BCD5-6952AE36E9FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SQLite manager", "SQLite manager\SQLite manager.csproj", "{16A65856-F329-40E1-9A41-D5AA4FB50ED0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B59C847F-9A87-4FD9-B9AB-306FBE553F92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B59C847F-9A87-4FD9-B9AB-306FBE553F92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B59C847F-9A87-4FD9-B9AB-306FBE553F92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B59C847F-9A87-4FD9-B9AB-306FBE553F92}.Release|Any CPU.Build.0 = Release|Any CPU
+		{829F80DC-4886-48F1-8E76-962615AE2461}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{829F80DC-4886-48F1-8E76-962615AE2461}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{829F80DC-4886-48F1-8E76-962615AE2461}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{829F80DC-4886-48F1-8E76-962615AE2461}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9E692A6-0EF1-454D-B8AD-8B012E3BEA5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9E692A6-0EF1-454D-B8AD-8B012E3BEA5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9E692A6-0EF1-454D-B8AD-8B012E3BEA5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9E692A6-0EF1-454D-B8AD-8B012E3BEA5B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6337B7C-8E63-4191-81EF-D7750CAFC65A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6337B7C-8E63-4191-81EF-D7750CAFC65A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6337B7C-8E63-4191-81EF-D7750CAFC65A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6337B7C-8E63-4191-81EF-D7750CAFC65A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A26C2CD9-5248-412F-BCD5-6952AE36E9FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A26C2CD9-5248-412F-BCD5-6952AE36E9FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A26C2CD9-5248-412F-BCD5-6952AE36E9FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A26C2CD9-5248-412F-BCD5-6952AE36E9FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16A65856-F329-40E1-9A41-D5AA4FB50ED0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16A65856-F329-40E1-9A41-D5AA4FB50ED0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16A65856-F329-40E1-9A41-D5AA4FB50ED0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16A65856-F329-40E1-9A41-D5AA4FB50ED0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
