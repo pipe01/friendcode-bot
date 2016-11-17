@@ -167,7 +167,7 @@ namespace DiscordBot
 
             if (!_friends[user.Id].SteamCode.Equals(new SteamCode()))
             {
-                await e.Channel.SendMessage(user.Mention + ", you already registered your steam ID!");
+                await e.Channel.SendMessage(user.Mention + ", you already registered your steam ID! Type `!fcremove steam` to change it.");
                 return false;
             }
 
@@ -191,7 +191,7 @@ namespace DiscordBot
             {
                 if (_friends.GetOrAdd(e.User.Id).Has3DSCode())
                 {
-                    await e.Channel.SendMessage(e.User.Mention + ", you have already registered your 3DS friend code!");
+                    await e.Channel.SendMessage(e.User.Mention + ", you have already registered your 3DS friend code! Type `!fcremove 3ds` to change it.");
                     return false;
                 }
                 this._friends.Set(e.User.Id, this._friends[e.User.Id].SetTDSCode(new FriendCode(tds.Value, e.User.Id)));
